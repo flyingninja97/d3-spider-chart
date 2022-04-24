@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-tooltip {
+  transition: visibilty 1s ease !important;
+  background-color: white !important;
+  border-radius: 2px !important;
+}

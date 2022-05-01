@@ -9,7 +9,11 @@ export default {
       backgroundColor: { control: 'color' },
     },
   };
-
-  const Template = (args) => <SpiderChart {...args} />;
+  const argument = {
+     data :[{'Communication':8,'Technical Knowledge':5,'Team Player':7,'Problem Solving':6,'Passion':5,'Politeness':1}],
+     showTooltipLabel:true,
+     showTooltipMeta:true
+  }
+  const Template = (args) => <SpiderChart {...argument} />;
 
 export const Small = Template.bind({});

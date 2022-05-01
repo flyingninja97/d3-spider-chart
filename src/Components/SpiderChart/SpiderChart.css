@@ -9,7 +9,12 @@ svg {
   justify-content: center;
 }
 
-.my-tooltip {
+.my-tooltip-label {
+  transition: visibilty 1s ease !important;
+  background-color: white !important;
+  border-radius: 2px !important;
+}
+.my-tooltip-meta {
   transition: visibilty 1s ease !important;
   background-color: white !important;
   border-radius: 2px !important;
